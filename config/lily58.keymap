@@ -8,7 +8,49 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        RECT_LEFT_HALF {
+            bindings = <&kp LEFT>;
+            key-positions = <50 51>;
+        };
+
+        RECT_RIGHT_HALF {
+            bindings = <&kp RIGHT>;
+            key-positions = <50 51>;
+        };
+
+        RECT_FULL {
+            bindings = <&kp F>;
+            key-positions = <50 51>;
+        };
+
+        RECT_CENTER {
+            bindings = <&kp ENTER>;
+            key-positions = <50 51>;
+        };
+
+        RECT_ONE_THIRD {
+            bindings = <&kp D>;
+            key-positions = <50 51>;
+        };
+
+        RECT_ONE_FOURTH {
+            bindings = <&kp D>;
+            key-positions = <50 51 36>;
+        };
+
+        RECT_THREE_FOURTHS {
+            bindings = <&kp E>;
+            key-positions = <50 51 36>;
+        };
+
+        RECT_TWO_THIRDS {
+            bindings = <&kp E>;
+            key-positions = <50 51>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
