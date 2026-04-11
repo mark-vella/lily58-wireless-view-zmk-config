@@ -78,11 +78,11 @@
 
         layer_1 {
             bindings = <
-&trans          &trans       &trans           &trans            &trans            &trans                                        &trans    &trans         &trans             &trans     &trans  &trans
-&rect_quarter   &rect_third  &rect_left_half  &rect_right_half  &rect_two_thirds  &rect_three_quarters                          &trans    &trans         &trans             &trans     &trans  &trans
-&trans          &trans       &trans           &trans            &trans            &trans                                        &kp LEFT  &kp DOWN       &kp UP             &kp RIGHT  &trans  &trans
-&kp LEFT_SHIFT  &trans       &trans           &trans            &trans            &trans                &trans       &trans     &trans    &trans         &trans             &trans     &trans  &trans
-                                              &kp LEFT_CONTROL  &kp LEFT_GUI      &trans                &kp SPACE    &kp ENTER  &trans    &kp RIGHT_ALT  &kp RIGHT_CONTROL
+&trans          &trans  &trans  &trans            &trans        &trans                          &trans    &trans         &trans             &trans     &trans  &trans
+&trans          &trans  &trans  &trans            &trans        &trans                          &trans    &trans         &trans             &trans     &trans  &trans
+&trans          &trans  &trans  &trans            &trans        &trans                          &kp LEFT  &kp DOWN       &kp UP             &kp RIGHT  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans            &trans        &trans  &trans       &trans     &trans    &trans         &trans             &trans     &trans  &trans
+                                &kp LEFT_CONTROL  &kp LEFT_GUI  &trans  &kp SPACE    &kp ENTER  &trans    &kp RIGHT_ALT  &kp RIGHT_CONTROL
             >;
 
             label = "Layer 1";
